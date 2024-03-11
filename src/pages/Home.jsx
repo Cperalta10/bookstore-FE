@@ -11,7 +11,7 @@ import BooksTable from "../components/home/BooksTable";
 const Home = () => {
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [showType, setShowType] = useState("");
+  const [showType, setShowType] = useState("table");
 
   useEffect(() => {
     setLoading(true);
